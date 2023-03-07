@@ -3,5 +3,5 @@ from django.http import HttpResponse
 
 # Create your views here.
 
-def employee(request):
-    return HttpResponse("This is the Employee page")
+def profile(request):
+    return render(request,'employee/profile.html')
