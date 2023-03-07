@@ -3,7 +3,13 @@ from django.http import HttpResponse
 
 
 def home(request):
-    return render(request,'index.html')
+    text={
+        'name' : "Sujal Mishra",
+        'age' : 20,
+        'phone' : 8770644753,
+        'friend' : ['Shreeti','Deepak','Sushil','Saumya','Akshat','Shinu']
+    }
+    return render(request,'index.html',text)
 
 def about(request):
     return render(request,'about.html')
