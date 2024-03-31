@@ -13,11 +13,12 @@ public class Intro {
         // Class : it is a named group of property and functions
         Student[] students=new Student[5];
         Student student1; //declaration
-        student1=new Student(); //Initialization
+        student1=new Student(); // Initialization
         System.out.println(Arrays.toString(students)); //pointing to null
 
-        Student student2= new Student(); //dynamically allocates memory and returns reference to it.
-        //  "new" does dynamic memory allocation
+        Student student2= new Student(); 
+        //dynamically allocates memory and returns reference to it.
+        //"new" does dynamic memory allocation.
 
         int a=10;
         // Wrapper Classes (Primitive as Object)
